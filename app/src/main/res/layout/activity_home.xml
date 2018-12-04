@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inti.student.randomfoodchoice.Home"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/tool_bar">
+
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_choice"
+            android:hint="@string/title_choice"
+            android:layout_gravity="center"
+            android:inputType="text|textNoSuggestions|textFilter"
+            android:imeOptions="actionSend" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="9"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_roll"
+                android:id="@+id/roll_btn"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/btn_success"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_enter"
+                android:id="@+id/enter_btn"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/btn_info"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/roll_btn"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_clear"
+                    android:id="@+id/clear_btn"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/btn_danger"
+                    android:layout_alignParentBottom="true"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_items"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_view"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <!--android:theme="?attr/actionBarTheme"-->
+            <!--android:minHeight="?attr/actionBarSize"-->
+            <!--android:id="@+id/btm_nav"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

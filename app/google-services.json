@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "323053009532",
+    "firebase_url": "https://random-food-gen.firebaseio.com",
+    "project_id": "random-food-gen",
+    "storage_bucket": "random-food-gen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323053009532:android:955f4cc63695f439",
+        "android_client_info": {
+          "package_name": "com.inti.student.randomfoodchoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323053009532-sgjmnhqn3650k1fi0umfc65rkppltv5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inti.student.randomfoodchoice",
+            "certificate_hash": "38fc7165912be9e9da569b969189af0914efd724"
+          }
+        },
+        {
+          "client_id": "323053009532-lsfahg1qimk54om6fcpqetpl9dsuco7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZOAPwsMCtlW82y3I--EM0oU5NxgcC3Ic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323053009532-lsfahg1qimk54om6fcpqetpl9dsuco7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

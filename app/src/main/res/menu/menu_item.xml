@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home">
+
+    <item
+        android:title="@string/btn_history"
+        android:id="@+id/history_btn"
+        />
+
+    <item
+        android:title="@string/btn_logout"
+        android:id="@+id/logout_btn"
+        />
+</menu>

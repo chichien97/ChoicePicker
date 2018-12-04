@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Choice Picker</string>
+    <string name="title_login">Sign in</string>
+    <string name="title_reg">Register</string>
+    <string name="title_roll">Roll</string>
+    <string name="title_choice">Enter Your Choice</string>
+    <string name="title_option">Option</string>
+    <string name="title_result">Your Result</string>
+    <string name="title_items"><u>Items</u></string>
+    <string name="btn_login">Login</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_reg">Register</string>
+    <string name="btn_roll">Roll</string>
+    <string name="btn_enter">Enter</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_history">History</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_end">End</string>
+    <string name="btn_startOver">Start Over</string>
+    <string name="btn_again">Again</string>
+    <string name="link_reg"><u>Register</u></string>
+    <string name="item_dup">Duplicated</string>
+    <string name="item_empty">Empty</string>
+    <string name="item_result">Result:</string>
+    <string name="input_username">Username</string>
+    <string name="input_password">Password</string>
+    <string name="input_password2">Re-enter Password</string>
+    <string name="input_age">Age</string>
+    <string name="input_email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Last Name</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="roll_again_text">Not satisfied? \nRoll Again.</string>
+
+
+
+</resources>
